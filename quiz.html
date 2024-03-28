@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div id="quiz-container">
+        <div id="question-container">
+            <p id="question">Question goes here</p>
+        </div>
+        <div id="answer-buttons" class="btn-container">
+            <!-- Answer buttons will be dynamically added here -->
+        </div>
+        <button id="next-button" class="btn" onclick="nextQuestion()">Next</button>
+        <div id="result-container" class="hide">
+            <p id="result">Your score: <span id="score">0</span></p>
+            <p>If score is in between 0-7 = You are a healthy person and do not require any support </p>
+            <p>If score is in between 8-15 = You are a person that if you try you can improve your stress level to an acceptable level without/with the requirement of some guidance</p>
+            <p>If score is in between 16-23 = You are a highy stressed person that requires some guidance and counselling </p>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
